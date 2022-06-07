@@ -1,0 +1,22 @@
+public class IntegerToString {
+    public static void main(String[] args) {
+
+        // There are Three mostly used ways to convert int into String
+
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter a integer value");
+        int a=in.nextInt();
+        String ans=String.valueOf(a);
+        System.out.println("using String.valueOf(a) "+ans);
+
+        String s=String.valueOf(a);
+        System.out.println("using String.valueOf(a) "+s);
+
+        String r=String.format("%d",a);
+        System.out.println("using String.format(\"%d\",a) " +r);
+        
+        
+
+
+    }
+}
