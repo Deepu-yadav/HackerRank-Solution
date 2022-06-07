@@ -1,0 +1,20 @@
+public class StringToInt {
+
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        String s="12";
+
+        // There three mostly used ways to convert String into int
+
+        int ans=Integer.parseInt(s);
+        System.out.println("Using Integer.parseInt(s) "+ans);
+
+        int ans1=Integer.valueOf(s);
+        System.out.println("using Integer.valueOf(s) "+ans1);
+
+        int ans2= new Integer(s).intValue();
+        System.out.println("Using new Integer(s).intValue() "+ans2);
+
+
+    }
+}
